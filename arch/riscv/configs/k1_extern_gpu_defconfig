@@ -2,23 +2,20 @@
 # Automatically generated file; DO NOT EDIT.
 # Linux/riscv 6.1.15 Kernel Configuration
 #
-CONFIG_CC_VERSION_TEXT="riscv64-linux-gnu-gcc (GCC) 14.2.0"
+CONFIG_CC_VERSION_TEXT="riscv64-linux-gnu-gcc (GCC) 14.1.1 20240507 (Red Hat Cross 14.1.1-1)"
 CONFIG_CC_IS_GCC=y
-CONFIG_GCC_VERSION=140200
+CONFIG_GCC_VERSION=140101
 CONFIG_CLANG_VERSION=0
 CONFIG_AS_IS_GNU=y
-CONFIG_AS_VERSION=24301
+CONFIG_AS_VERSION=24100
 CONFIG_LD_IS_BFD=y
-CONFIG_LD_VERSION=24301
+CONFIG_LD_VERSION=24100
 CONFIG_LLD_VERSION=0
-CONFIG_RUST_IS_AVAILABLE=y
-CONFIG_CC_CAN_LINK=y
-CONFIG_CC_CAN_LINK_STATIC=y
 CONFIG_CC_HAS_ASM_GOTO_OUTPUT=y
 CONFIG_CC_HAS_ASM_GOTO_TIED_OUTPUT=y
 CONFIG_CC_HAS_ASM_INLINE=y
 CONFIG_CC_HAS_NO_PROFILE_FN_ATTR=y
-CONFIG_PAHOLE_VERSION=127
+CONFIG_PAHOLE_VERSION=0
 CONFIG_IRQ_WORK=y
 CONFIG_BUILDTIME_TABLE_SORT=y
 CONFIG_THREAD_INFO_IN_TASK=y
@@ -1403,7 +1400,7 @@ CONFIG_PREVENT_FIRMWARE_BUILD=y
 # Firmware loader
 #
 CONFIG_FW_LOADER=y
-CONFIG_EXTRA_FIRMWARE="radeon/CYPRESS_uvd.bin radeon/CEDAR_smc.bin radeon/CEDAR_me.bin radeon/CEDAR_pfp.bin radeon/CEDAR_rlc.bin amdgpu/polaris10_ce.bin amdgpu/polaris10_ce_2.bin amdgpu/polaris10_k_smc.bin amdgpu/polaris10_k2_smc.bin amdgpu/polaris10_k_mc.bin amdgpu/polaris10_mc.bin amdgpu/polaris10_me.bin amdgpu/polaris10_me_2.bin amdgpu/polaris10_mec2.bin amdgpu/polaris10_mec2_2.bin amdgpu/polaris10_mec.bin amdgpu/polaris10_mec_2.bin amdgpu/polaris10_pfp.bin amdgpu/polaris10_pfp_2.bin amdgpu/polaris10_rlc.bin amdgpu/polaris10_sdma1.bin amdgpu/polaris10_sdma.bin amdgpu/polaris10_smc.bin amdgpu/polaris10_smc_sk.bin amdgpu/polaris10_uvd.bin amdgpu/polaris10_vce.bin"
+CONFIG_EXTRA_FIRMWARE="amdgpu/dimgrey_cavefish_vcn.bin amdgpu/dimgrey_cavefish_ce.bin amdgpu/dimgrey_cavefish_pfp.bin amdgpu/dimgrey_cavefish_me.bin amdgpu/dimgrey_cavefish_mec.bin amdgpu/dimgrey_cavefish_mec2.bin amdgpu/dimgrey_cavefish_rlc.bin amdgpu/dimgrey_cavefish_sos.bin amdgpu/dimgrey_cavefish_ta.bin amdgpu/dimgrey_cavefish_sdma.bin amdgpu/dimgrey_cavefish_dmcub.bin amdgpu/dimgrey_cavefish_smc.bin radeon/CYPRESS_uvd.bin radeon/CEDAR_smc.bin radeon/CEDAR_me.bin radeon/CEDAR_pfp.bin radeon/CEDAR_rlc.bin amdgpu/hawaii_k_smc.bin amdgpu/hawaii_smc.bin amdgpu/hawaii_uvd.bin amdgpu/hawaii_vce.bin amdgpu/hawaii_sdma.bin amdgpu/hawaii_sdma1.bin amdgpu/hawaii_pfp.bin amdgpu/hawaii_me.bin amdgpu/hawaii_ce.bin amdgpu/hawaii_rlc.bin amdgpu/hawaii_mec.bin amdgpu/hawaii_mc.bin radeon/hawaii_pfp.bin radeon/hawaii_me.bin radeon/hawaii_ce.bin radeon/hawaii_mec.bin radeon/hawaii_mc.bin radeon/hawaii_rlc.bin radeon/hawaii_sdma.bin radeon/hawaii_smc.bin radeon/hawaii_k_smc.bin radeon/HAWAII_pfp.bin radeon/HAWAII_me.bin radeon/HAWAII_ce.bin radeon/HAWAII_mec.bin radeon/HAWAII_mc.bin radeon/HAWAII_mc2.bin radeon/HAWAII_rlc.bin radeon/HAWAII_sdma.bin radeon/HAWAII_smc.bin"
 CONFIG_EXTRA_FIRMWARE_DIR="../linux-firmware"
 # CONFIG_FW_LOADER_USER_HELPER is not set
 # CONFIG_FW_LOADER_COMPRESS is not set
@@ -7683,7 +7680,6 @@ CONFIG_DEBUG_INFO_DWARF_TOOLCHAIN_DEFAULT=y
 # CONFIG_DEBUG_INFO_COMPRESSED is not set
 # CONFIG_DEBUG_INFO_SPLIT is not set
 # CONFIG_DEBUG_INFO_BTF is not set
-CONFIG_PAHOLE_HAS_SPLIT_BTF=y
 # CONFIG_GDB_SCRIPTS is not set
 CONFIG_FRAME_WARN=2048
 # CONFIG_STRIP_ASM_SYMS is not set
