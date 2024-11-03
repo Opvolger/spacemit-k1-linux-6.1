@@ -11,14 +11,6 @@
 		clock-names = "ace0","ace1","tcm","cci","pll3", "c0hi", "c1hi";
 		cci-hz = /bits/ 64 <614000000>;
 
-		opp1900000000 {
-			opp-hz = /bits/ 64 <1900000000>, /bits/ 64 <1900000000>;
-			tcm-hz = /bits/ 64 <950000000>;
-			ace-hz = /bits/ 64 <950000000>;
-			opp-microvolt = <1160000>;
-			clock-latency-ns = <200000>;
-		};
-
 		opp1800000000 {
 			opp-hz = /bits/ 64 <1800000000>, /bits/ 64 <1800000000>;
 			tcm-hz = /bits/ 64 <900000000>;
@@ -77,14 +69,6 @@
 		clock-names = "ace0","ace1","tcm","cci","pll3", "c0hi", "c1hi";
 		cci-hz = /bits/ 64 <614000000>;
 
-		opp1900000000 {
-			opp-hz = /bits/ 64 <1900000000>, /bits/ 64 <1900000000>;
-			tcm-hz = /bits/ 64 <950000000>;
-			ace-hz = /bits/ 64 <950000000>;
-			opp-microvolt = <1160000>;
-			clock-latency-ns = <200000>;
-		};
-
 		opp1800000000 {
 			opp-hz = /bits/ 64 <1800000000>, /bits/ 64 <1800000000>;
 			tcm-hz = /bits/ 64 <900000000>;
@@ -142,14 +126,6 @@
 			<&ccu CLK_CCI550>, <&ccu CLK_PLL3>, <&ccu CLK_CPU_C0_HI>, <&ccu CLK_CPU_C1_HI>;
 		clock-names = "ace0","ace1","tcm","cci","pll3", "c0hi", "c1hi";
 		cci-hz = /bits/ 64 <614000000>;
-
-		opp2000000000 {
-			opp-hz = /bits/ 64 <1900000000>, /bits/ 64 <1900000000>;
-			tcm-hz = /bits/ 64 <950000000>;
-			ace-hz = /bits/ 64 <950000000>;
-			opp-microvolt = <1160000>;
-			clock-latency-ns = <200000>;
-		};
 
 		opp1800000000 {
 			opp-hz = /bits/ 64 <1800000000>, /bits/ 64 <1800000000>;
